@@ -7,7 +7,7 @@
  */
 public class zhengShuZhong1ChuXianDeCiShu031 {
     //1.暴力求解法
-    /*public int NumberOf1Between1AndN_Solution(int n) {
+    public int NumberOf1Between1AndN_Solution(int n) {
         if(n<=0) return 0;
         StringBuffer sb = new StringBuffer();
         for (int i = 1; i <=n ; i++) {
@@ -19,9 +19,5 @@ public class zhengShuZhong1ChuXianDeCiShu031 {
             if(str.charAt(i)=='1') count++;
         }
         return count;
-    }*/
-    //2.找规律
-    public int NumberOf1Between1AndN_Solution(int n) {
-
     }
 }
